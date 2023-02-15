@@ -6,6 +6,8 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:notification_app/l10n/supportLocale.dart';
+import 'package:notification_app/provider/localeProvider.dart';
 import 'package:notification_app/routes/routes.gr.dart';
 import 'package:notification_app/theme.dart';
 import 'package:provider/provider.dart';

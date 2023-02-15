@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:keyboard_dismisser/keyboard_dismisser.dart';
-import 'package:sample/constants/colors.dart';
-import 'package:sample/helper/helper.dart';
-import 'package:sample/routes/routes.gr.dart';
-import 'package:sample/widgets/default_button.dart';
+
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:notification_app/constants/colors.dart';
+import 'package:notification_app/helper/helper.dart';
+import 'package:notification_app/routes/routes.gr.dart';
+import 'package:notification_app/widgets/default_button.dart';
 
 class EmailFormScreen extends StatefulWidget {
   const EmailFormScreen({super.key});

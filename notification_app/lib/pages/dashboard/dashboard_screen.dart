@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sample/pages/dashboard/components/column_chart_widget.dart';
-import 'package:sample/pages/dashboard/components/doughnut_chart_widget.dart';
-import 'package:sample/pages/dashboard/components/pyramid_chart_widget.dart';
+
 import 'package:flutter_core/difference_screens/mixin_adaptive_page.dart';
+import 'package:notification_app/pages/dashboard/components/column_chart_widget.dart';
+import 'package:notification_app/pages/dashboard/components/doughnut_chart_widget.dart';
+import 'package:notification_app/pages/dashboard/components/pyramid_chart_widget.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
 class DashboardScreen extends StatefulWidget {

@@ -5,15 +5,16 @@ import 'package:flutter/services.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:keyboard_dismisser/keyboard_dismisser.dart';
+import 'package:notification_app/constants/colors.dart';
+import 'package:notification_app/helper/helper.dart';
+import 'package:notification_app/widgets/default_button.dart';
 import 'package:provider/provider.dart';
-import 'package:sample/constants/colors.dart';
-import 'package:sample/helper/helper.dart';
-import 'package:sample/provider/localeProvider.dart';
-import 'package:sample/routes/routes.gr.dart';
-import 'package:sample/widgets/default_button.dart';
+
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../../routes/routes.gr.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});

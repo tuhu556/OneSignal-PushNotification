@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sample/constants/colors.dart';
+import 'package:notification_app/constants/colors.dart';
 
 class DialogApp extends StatelessWidget {
   final String title;

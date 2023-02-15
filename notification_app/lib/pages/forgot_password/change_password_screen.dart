@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:keyboard_dismisser/keyboard_dismisser.dart';
-import 'package:sample/constants/colors.dart';
-import 'package:sample/constants/pattern_constants.dart';
 
-import 'package:sample/widgets/default_button.dart';
-import 'package:sample/widgets/text_field_edit.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:notification_app/constants/colors.dart';
+import 'package:notification_app/constants/pattern_constants.dart';
+import 'package:notification_app/widgets/default_button.dart';
+import 'package:notification_app/widgets/text_field_edit.dart';
 
 class ChangePasswordScreen extends StatefulWidget {
   const ChangePasswordScreen({super.key});
