@@ -4,7 +4,7 @@ import 'package:notification_app/constants/colors.dart';
 import 'package:notification_app/constants/pattern_constants.dart';
 import 'package:notification_app/widgets/dialog_app.dart';
 import 'package:notification_app/widgets/text_field_edit.dart';
-
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 class Helpers {
   Helpers._();
   static final Helpers shared = Helpers._();

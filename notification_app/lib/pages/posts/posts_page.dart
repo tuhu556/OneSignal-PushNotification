@@ -1,9 +1,9 @@
 import 'package:auto_route/auto_route.dart';
 
 import 'package:flutter/material.dart';
-import 'package:sample/data/app_data.dart';
-import 'package:sample/routes/routes.gr.dart';
-import 'package:sample/widgets/widgets.dart';
+import 'package:notification_app/data/app_data.dart';
+import 'package:notification_app/routes/routes.gr.dart';
+import 'package:notification_app/widgets/widgets.dart';
 
 class PostsPage extends StatelessWidget {
   PostsPage({Key? key}) : super(key: key);

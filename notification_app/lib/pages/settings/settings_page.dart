@@ -2,9 +2,9 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'package:sample/routes/routes.gr.dart';
-import 'package:sample/widgets/default_button.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:notification_app/routes/routes.gr.dart';
+import 'package:notification_app/widgets/default_button.dart';
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});

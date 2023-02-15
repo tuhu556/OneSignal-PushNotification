@@ -1,7 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:sample/constants/colors.dart';
-import 'package:sample/data/app_data.dart';
+import 'package:notification_app/constants/colors.dart';
+import 'package:notification_app/data/app_data.dart';
 
 class SinglePostPage extends StatelessWidget {
   final int postId;

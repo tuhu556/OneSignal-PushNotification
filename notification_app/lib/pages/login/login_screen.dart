@@ -7,11 +7,11 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:keyboard_dismisser/keyboard_dismisser.dart';
 import 'package:notification_app/constants/colors.dart';
 import 'package:notification_app/helper/helper.dart';
+import 'package:notification_app/provider/localeProvider.dart';
 import 'package:notification_app/widgets/default_button.dart';
 import 'package:provider/provider.dart';
-
-import 'package:auto_route/auto_route.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:auto_route/auto_route.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../routes/routes.gr.dart';
