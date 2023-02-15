@@ -17,10 +17,7 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      throw UnsupportedError(
-        'DefaultFirebaseOptions have not been configured for web - '
-        'you can reconfigure this by running the FlutterFire CLI again.',
-      );
+      return web;
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
@@ -28,10 +25,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -49,21 +43,41 @@ class DefaultFirebaseOptions {
     }
   }
 
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyDENHn71luKZHXkyME5EBHMQDlu0eu1D3w',
+    appId: '1:828591222677:web:0debea229f616ca122109c',
+    messagingSenderId: '828591222677',
+    projectId: 'sample-notification-app-a512d',
+    authDomain: 'sample-notification-app-a512d.firebaseapp.com',
+    storageBucket: 'sample-notification-app-a512d.appspot.com',
+    measurementId: 'G-TF05FZ4QW2',
+  );
+
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBF2fVS59b0UfBUHmnLOTlJahXSyOAzkXY',
-    appId: '1:749082258747:android:49f1128c6ea1c41ef59b1e',
-    messagingSenderId: '749082258747',
-    projectId: 'vts-flutter-sample',
-    storageBucket: 'vts-flutter-sample.appspot.com',
+    apiKey: 'AIzaSyB4iBVj6Ayx8SVSb3fnLwt3Rzv40uqe3mQ',
+    appId: '1:828591222677:android:557c47af44cb8ddf22109c',
+    messagingSenderId: '828591222677',
+    projectId: 'sample-notification-app-a512d',
+    storageBucket: 'sample-notification-app-a512d.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyC9fq2f2WmUZjQu6AYVw2aD6___Wi4UCzQ',
-    appId: '1:749082258747:ios:f7c6fac6d20eff59f59b1e',
-    messagingSenderId: '749082258747',
-    projectId: 'vts-flutter-sample',
-    storageBucket: 'vts-flutter-sample.appspot.com',
-    iosClientId: '749082258747-svqtvtikkdmsjlnhhvrbt0upi6aas7pl.apps.googleusercontent.com',
-    iosBundleId: 'com.example.sample11223344',
+    apiKey: 'AIzaSyCrvcsvNjhAZmqwfldUxiNGtNGaF7_hdQY',
+    appId: '1:828591222677:ios:efdad91cab9d76fc22109c',
+    messagingSenderId: '828591222677',
+    projectId: 'sample-notification-app-a512d',
+    storageBucket: 'sample-notification-app-a512d.appspot.com',
+    iosClientId: '828591222677-jfnmvrava7lailget7pqe53h8bvo4iqj.apps.googleusercontent.com',
+    iosBundleId: 'com.example.notificationApp',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyCrvcsvNjhAZmqwfldUxiNGtNGaF7_hdQY',
+    appId: '1:828591222677:ios:efdad91cab9d76fc22109c',
+    messagingSenderId: '828591222677',
+    projectId: 'sample-notification-app-a512d',
+    storageBucket: 'sample-notification-app-a512d.appspot.com',
+    iosClientId: '828591222677-jfnmvrava7lailget7pqe53h8bvo4iqj.apps.googleusercontent.com',
+    iosBundleId: 'com.example.notificationApp',
   );
 }

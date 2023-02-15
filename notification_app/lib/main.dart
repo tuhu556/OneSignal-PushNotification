@@ -1,20 +1,24 @@
-import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_core/localizations/localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:notification_app/l10n/supportLocale.dart';
 import 'package:notification_app/provider/localeProvider.dart';
 import 'package:notification_app/routes/routes.gr.dart';
 import 'package:notification_app/theme.dart';
+import 'package:onesignal_flutter/onesignal_flutter.dart';
 import 'package:provider/provider.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
+  OneSignal.shared.setLogLevel(OSLogLevel.verbose, OSLogLevel.none);
+  OneSignal.shared.setAppId("f847d9e2-a8b5-425c-8939-8016f9a4bc11");
+  OneSignal.shared.promptUserForPushNotificationPermission().then(
+    (accepted) {
+      print("Accepted permission: $accepted");
+    },
+  );
   runApp(const MyMainApp());
 }
 
