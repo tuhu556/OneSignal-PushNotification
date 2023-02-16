@@ -29,6 +29,13 @@
             {
               "client_id": "828591222677-m8mvmasamlgrljtvuuukcabeqq7dq5g3.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "828591222677-cmmt3l9di820mmpltkhmdbntlvbohlhf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.notificationApp11223344.OneSignalNotificationServiceExtension"
+              }
             }
           ]
         }

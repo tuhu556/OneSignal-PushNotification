@@ -63,17 +63,17 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyCrvcsvNjhAZmqwfldUxiNGtNGaF7_hdQY',
-    appId: '1:828591222677:ios:efdad91cab9d76fc22109c',
+    appId: '1:828591222677:ios:bbe6397b30c26f1222109c',
     messagingSenderId: '828591222677',
     projectId: 'sample-notification-app-a512d',
     storageBucket: 'sample-notification-app-a512d.appspot.com',
-    iosClientId: '828591222677-jfnmvrava7lailget7pqe53h8bvo4iqj.apps.googleusercontent.com',
-    iosBundleId: 'com.example.notificationApp',
+    iosClientId: '828591222677-4gv4q72jlrmut4j85nbkghks2oeqju6e.apps.googleusercontent.com',
+    iosBundleId: 'com.example.notificationApp08090183',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyCrvcsvNjhAZmqwfldUxiNGtNGaF7_hdQY',
-    appId: '1:828591222677:ios:efdad91cab9d76fc22109c',
+    appId: '1:828591222677:ios:988e2524196a5e5c22109c',
     messagingSenderId: '828591222677',
     projectId: 'sample-notification-app-a512d',
     storageBucket: 'sample-notification-app-a512d.appspot.com',
